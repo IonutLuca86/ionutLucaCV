@@ -1,0 +1,36 @@
+.work-container {
+  width: 80%;
+  margin: auto;
+  margin-top: 2vw;
+  margin-bottom: 4vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.work-title {
+  width: 30%;
+  margin-right: 2vw;
+}
+.work-text-container {
+  width: 70%;
+  margin-left: 2vw;
+}
+.work-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  margin-left: 3vw;
+}
+.work-description-info {
+  line-height: 1;
+}
+.vl-work {
+  border-left: 2px solid #ea445a;
+  height: 58vw;
+}
+.vl-education {
+  border-left: 2px solid #ea445a;
+  height: 10vw;
+}

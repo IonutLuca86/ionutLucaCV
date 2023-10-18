@@ -1,0 +1,22 @@
+.about-container {
+  width: 80%;
+  margin: auto;
+  margin-top: 2vw;
+  margin-bottom: 4vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.about-title {
+  width: 30%;
+  margin-right: 2vw;
+}
+.about-text-container {
+  width: 70%;
+  margin-left: 2vw;
+}
+.vl {
+  border-left: 2px solid #ea445a;
+  height: 25vw;
+}

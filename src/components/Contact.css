@@ -1,0 +1,66 @@
+.contact-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.ml-3 {
+  margin-left: 3vw;
+}
+.vl-contacts {
+  border-left: 2px solid #ea445a;
+  height: 45vw;
+}
+.link {
+  text-decoration: none;
+}
+.link:hover {
+  transform: scale(1.1);
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2vw;
+}
+
+.form-input {
+  height: 2.5vw;
+  width: 20vw;
+  border-radius: 10px;
+  background-color: ghostwhite;
+}
+.form-message {
+  height: 10vw;
+  width: 20vw;
+  border: 2px solid black;
+  background-color: ghostwhite;
+  border-radius: 10px;
+}
+.form-button {
+  width: 20vw;
+  height: 2vw;
+  margin-top: 1.5vw;
+  background-color: #1b1b1d;
+  color: ghostwhite;
+  border-radius: 10px;
+}
+.alert {
+  margin-top: 1vw;
+  padding: 1vw;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 18vw;
+  height: auto;
+}
+#alertComment {
+  color: rgb(255, 119, 119);
+  visibility: visible;
+  font-size: 0.5em;
+}

@@ -1,0 +1,81 @@
+#spin {
+  color: #1e55b3;
+  font-size: 5vw;
+  font-weight: 700;
+}
+#spin::after {
+  content: "";
+  animation: spin 30s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    content: "Hello World!";
+  }
+  20% {
+    content: "Hello Recruiter!";
+  }
+  40% {
+    content: "Hello HR Manager!";
+  }
+  60% {
+    content: "Hello Developer!";
+  }
+  80% {
+    content: "Hello Everybody!";
+  }
+  100% {
+    content: "Hello You!";
+  }
+}
+.intro-container {
+  width: 80%;
+  margin: auto;
+  margin-top: 2vw;
+  margin-bottom: 4vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.message-container {
+  margin-top: 1vw;
+  margin-bottom: 3vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.intro-text-container {
+  width: 80%;
+}
+.red {
+  color: #ea445a;
+}
+.blue {
+  color: #1e55b3;
+}
+.gray {
+  color: #1b1b1d;
+}
+
+.page-title {
+  font-size: 2.5vw;
+  font-weight: 700;
+}
+.text-xlarge {
+  font-size: 2vw;
+  font-weight: 600;
+}
+.text-normal {
+  font-size: 1vw;
+  font-weight: 600;
+}
+.text-small {
+  font-size: 0.8vw;
+  font-weight: 600;
+}
+.text-large {
+  font-size: 1.5vw;
+  font-weight: 600;
+}

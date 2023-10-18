@@ -1,0 +1,18 @@
+.skills-list {
+  line-height: 0.5;
+}
+.skills {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.vl-skills {
+  border-left: 2px solid #ea445a;
+  height: 25vw;
+}
+.vl-interests {
+  border-left: 2px solid #ea445a;
+  height: 10vw;
+}
