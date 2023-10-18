@@ -4,7 +4,7 @@ export default function Work() {
     return(
         <div className='work-container'>
             <div className='work-title'>
-                <p className='text-large blue'> Work Experience</p>
+                <p className='text-large blue'> Work</p>
             </div>
             <div className='vl-work'></div>
             <div className='work-text-container'>

@@ -9,6 +9,7 @@ import Skills from './components/Skills'
 import Interests from './components/Interests'
 import Languages from './components/Languages'
 import Contact from './components/Contact'
+import {FaRegCopyright} from 'react-icons/fa'
 
 
 function App() {
@@ -29,6 +30,11 @@ function App() {
       <Skills/>
       <Interests /></section>
       <section id="contact"><Contact/></section>
+      <br />
+      <hr width="100%" color="#ea445a" size="1px"/>
+      <div className='footer'>
+        <p className='text-small red'><FaRegCopyright/> 2023 - Ionut Luca</p>
+      </div>
    </div>
    </>
   )

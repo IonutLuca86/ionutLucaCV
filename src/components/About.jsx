@@ -1,4 +1,5 @@
 import '../components/About.css'
+import me from '../assets/v2.jpg'
 
 export default function About () {
     return(
@@ -9,12 +10,14 @@ export default function About () {
                 
                 <div className="vl"></div>
                 <div className="about-text-container">
+                    
                     <p className='text-normal gray'><span className='text-large blue'>Ambitious .Net developer student on the way to
-                 new outputs!</span><br/>
-                Structured, proactive, energetic and joyful person, who strives to 
+                 new outputs!</span><br/></p>
+                <p className='text-normal gray'>Structured, proactive, energetic and joyful person, who strives to 
                 constantly evolve, are just a few words that would describe me as a 
-                person.<br/>
-                My previous jobs in IT support and the recycling industry give me a
+                person.<br/></p>
+                <div className='image'>                    
+               <p className='text-normal gray'> My previous jobs in IT support and the recycling industry give me a
                  deeper customer understanding of the end-user experience, which I am 
                  happy to contribute in addition to regular .NET development.<br/>
                 I have skills in C#, JavaScript, React, OOP, SQL Server, LINQ, REST API 
@@ -23,6 +26,7 @@ export default function About () {
                  working on things that require problem solving.<br/>
                 I enjoy working independently as well as in a group, on site or remotely.
             </p>
+            <img src={me} alt="me" className='me' /></div>
                 </div>
         </div>
     );

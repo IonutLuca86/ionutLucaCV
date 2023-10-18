@@ -11,6 +11,7 @@
 .work-title {
   width: 30%;
   margin-right: 2vw;
+  text-align: center;
 }
 .work-text-container {
   width: 70%;
@@ -33,4 +34,12 @@
 .vl-education {
   border-left: 2px solid #ea445a;
   height: 10vw;
+}
+@media screen and (max-width: 700px) {
+  .vl-work {
+    height: 300vw;
+  }
+  .vl-education {
+    height: 30vw;
+  }
 }

@@ -66,40 +66,40 @@ export default function Contact() {
                 <div className="vl-contacts"></div>
                 <div className="about-text-container"> 
                 <div className='contact-info'>
-                    <div className='skills-list'>
-                        <div className='skills'>
+                    <div className='contact-list'>
+                        <div className='contact-item'>
                         <p className='text-large gray'><BsCalendarDate/></p>
                         <p className='text-normal gray ml-3'> 1986-06-18</p>
                     </div>
-                      <div className='skills'>
+                      <div className='contact-item'>
                         <p className='text-large gray'><FaMapLocationDot/></p>
                         <p className='text-normal gray ml-3'> Stockholm,Sweden</p>
                     </div>
-                      <div className='skills'>
+                      <div className='contact-item'>
                         <p className='text-large gray'><BsTelephone/></p>
-                        <p className='text-normal gray'> (+46) 076 587 90 94</p>
+                        <p className='text-normal gray ml-3'> (+46) 076 587 90 94</p>
                     </div>
                     </div>
                                       
-                    <div className='skills-list'>
-                    <div className='skills'>
+                    <div className='contact-list'>
+                    <div className='contact-item'>
                         <p className='text-large gray'><AiOutlineMail/></p>
                         <a href= "mailto: ic.luca@outlook.com" className='link'>
                         <p className='text-normal gray ml-3'> ic.luca@outlook.com</p></a>
                     </div>
-                      <div className='skills'>
+                      <div className='contact-item'>
                         <p className='text-large gray'><AiOutlineLinkedin/></p>
                         <a href="https://www.linkedin.com/in/ionut-luca-b4938924b/" className='link ' target='blank'>
                             <p className='text-normal gray'> Add me on LinkedIn</p></a>
                     </div>
-                     <div className='skills'>
+                     <div className='contact-item'>
                         <p className='text-large gray'><AiFillGithub/></p>
                         <a href="https://github.com/IonutLuca86" target='blank' className='link '>
                             <p className='text-normal gray'> Follow me on Github</p></a>
                     </div>
                     </div>
                      </div>
-                     <div>
+                     <div className='contact-text'>
                         <p className='text-normal gray ml-3'> Or you can send me a direct message from here and i will get in touch with you :</p>
                     </div> 
                     <div className='form-container'> 

@@ -15,10 +15,10 @@ export default function Navbar () {
                 </div>
                 </div>
               <ul>
-            <li><AnchorLink href="#about" className="text-large gray anchor" >About</AnchorLink></li>
-            <li><AnchorLink href="#work" className="text-large gray anchor" >Work Experience</AnchorLink></li>
-            <li><AnchorLink href="#skills" className="text-large gray anchor">Skills, Education and Interests</AnchorLink></li>
-            <li><AnchorLink href="#contact" className="text-large gray anchor">Contact</AnchorLink></li>
+            <li><AnchorLink href="#about" className="text-large red anchor" >About</AnchorLink></li>
+            <li><AnchorLink href="#work" className="text-large red anchor" >Work Experience</AnchorLink></li>
+            <li><AnchorLink href="#skills" className="text-large red anchor">Skills, Education and Interests</AnchorLink></li>
+            <li><AnchorLink href="#contact" className="text-large red anchor">Contact</AnchorLink></li>
               </ul>
             
             </nav>            

@@ -79,3 +79,31 @@
   font-size: 1.5vw;
   font-weight: 600;
 }
+@media screen and (max-width: 700px) {
+  .main-container {
+    margin-top: 45vw;
+  }
+  #spin {
+    font-size: 7vw;
+  }
+  .page-title {
+    font-size: 5.5vw;
+    font-weight: 700;
+  }
+  .text-xlarge {
+    font-size: 5vw;
+    font-weight: 600;
+  }
+  .text-normal {
+    font-size: 3vw;
+    font-weight: 600;
+  }
+  .text-small {
+    font-size: 2.5vw;
+    font-weight: 600;
+  }
+  .text-large {
+    font-size: 4vw;
+    font-weight: 600;
+  }
+}
